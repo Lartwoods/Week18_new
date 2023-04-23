@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  width: 98%;
+  height: 100%;
+  font-size: 0.9rem;
+  font-family: "Dela Gothic One", sans-serif;
+  background-color: rgb(225, 228, 231);
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p {
+  font-weight: bold;
+}
+h1 {
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+}
+.main__cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-card {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 30%;
+  height: 970px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(249, 245, 245);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.rating {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+
+.star {
+  font-size: 2rem;
+  color: #dcdcdc;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.star-button {
+  background-color: rgb(249, 245, 245);
+  color: #ccc;
+  font-size: 2rem;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.star-button.active,
+.star-button:hover {
+  color: gold;
+}
